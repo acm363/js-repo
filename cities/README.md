@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+## Project description 
+  This project is a web application in react allowing the user to discover several cities of the world through images, to note them if he has visitedthese cities and to     leave a feedback on the site on the contact page
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

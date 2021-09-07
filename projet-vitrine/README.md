@@ -1,5 +1,7 @@
+## Project
+This project is a showcase site aimed at presenting potential clients of a web development company with their project and to contact the company via a form if they want
 
-# Required modules
+## Required modules
 ```sh
 npm i react-router-dom react-copy-to-clipboard node-sass framer-motion emailjs-com
 npm i

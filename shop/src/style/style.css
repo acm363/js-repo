@@ -1,0 +1,273 @@
+body {
+	background-color :#f7f7f7;
+	width : 100%;
+	font-family : sans-serif;
+	margin-left : 30px;
+}
+
+
+h1 {
+	background-color: #f8f8f8;
+	color :  #04053bbe;
+	padding : 5px;
+	text-align: center;
+	border-radius : 4px;
+	width : 950px;
+	font-family :serif;
+	box-shadow : 0px 0px 6px 2px  rgba(13, 14, 71, 0.8) inset;
+}
+
+div#panier, div#boutique {
+	background-color: #f7f7f7;
+	display : inline-block;
+	vertical-align: middle;
+	height : 600px;
+}
+
+div#boutique {
+		width : 650px;
+		margin-bottom: 15px;
+}
+
+
+div.achats, div#boutique {
+	overflow: auto;
+}
+
+div#panier, div#boutique {
+  box-shadow : 0px 0px 2px 2px rgba(80,64,64,0.5);
+	padding : 2px;
+	border-radius : 10px;
+}
+div#boutique div#search {
+	background-color: #20232a;
+	width : 40%;
+	color : #5ed1f1;
+	position: center;
+	margin-left: 20%;
+	margin-right: 20%;
+	border-radius: 10%;
+	padding: 5px;
+	font-family :'Times New Roman', Times, serif;
+}
+
+div.achats {
+	height : 480px;
+	border : solid thin rgba(80,64,64,0.5);
+	padding : 2px;
+	border-radius : 4px;
+}
+
+div#panier { 
+	width : 290px;
+	text-align : center;
+	margin-left: 20px;
+}
+
+input#filter {
+	width : 90%;
+	padding: 5px;
+	border-radius: 8%;
+	margin : 2px;
+}
+
+/* produits */
+div.produit {
+	width : 30%;	
+	position : relative;
+	text-align : center;
+	height : 240px;
+	display : inline-block;
+	background-color: rgba(255,255,255,0);
+	box-shadow : 0px 0px 6px 2px  rgba(13, 14, 71, 0.8) inset;
+	border-radius : 4px;
+	margin : 4px 4px;
+}
+
+div.produit figure, div.produit div.description {
+	box-shadow : 0px 0px 4px 2px  rgba(20, 27, 24, 0.75) inset;
+	border-radius : 4px;	
+}
+div.produit figure {
+	margin : auto;	
+	width : 90%;
+	height : 120px;
+	text-align : center;
+}
+div.produit figure img {
+	margin : 5px;
+	height : 93%;
+	width : 95%;
+}
+
+div.produit h4 {
+	color : rgb(0, 0, 2);
+	text-align : left;
+	font-size : 12px;
+	margin : 0px;
+	padding : 5px 10px;
+}
+
+div.produit div.description, div.controle  {
+	vertical-align : middle;
+	display : inline-block;
+}
+div.produit div.description {
+	height : 78px;
+	width : 108px;
+	text-align : left;
+	font-size : 10px;
+	background-color: white;
+	margin : 2px 4px 2px 2px;
+	padding : 4px 6px;
+}
+	
+div.produit div.prix {
+	position : absolute;
+	top : 35px;
+	right : 15px;
+	font-size : 14px;
+	display : inline-block;
+	background-color : rgb(200,0,0);
+	color : white;
+	padding : 4px;
+	border-radius : 4px;
+}
+div.prix:after, #montant:after {
+	content : " €"
+}
+
+div.produit:hover{
+	transform: scale(1.05);
+	z-index: 1;
+	background-color :#1525b65d;
+	box-shadow : 0px 0px 6px 2px  rgba(8, 24, 78, 0.973) inset;
+}
+
+
+/* controle */
+/* buttons */
+button.commander {
+	width : 25px;
+	height : 25px;
+	background-size : cover;
+	border : solid 2px white;
+	/*opacity : 0.25;*/
+}
+
+button.commander {
+	background-image : url("./images/panier.jpg");
+}
+
+button.commander:hover {
+	transform: scaleY(0.8);
+	box-shadow: 0px 0px 4px 2px #000000;
+}
+
+button.retirer {
+	width : 19px;
+	height : 19px;
+	background-size : cover;
+	border : solid 2px white;
+	box-shadow : 0px 0px 2px 1px rgba(200,0,0,0.6);	
+}
+
+button.retirer {
+	background-image : url("./images/poubelle.jpg");
+}
+
+button.retirer:hover {
+	transform: scaleY(1.2);
+	box-shadow: 0px 0px 4px 2px #000000;
+}
+
+input[type="number"] {
+	width : 34px;
+	font-size : 14px;
+	text-align : center;
+	border : none;
+	background-color : rgb(250,250,250);
+}
+.produit div.controle {
+	box-shadow : 0px 0px 2px 1px  rgba(0,150,0,0.3) inset;
+	background-color : rgba(0,150,0, 0.1);
+	text-align : center;	
+	border-radius : 4px;
+}
+
+.achat div.controle {
+
+	text-align : center;	
+}
+
+div.produit div.controle {
+	width :42px;
+}
+div.achat div.controle {
+	width : 22px;
+}
+div.controle button, div.controle input {
+	display : block;
+	margin : 7px auto;
+	border-radius : 2px;
+}
+
+/* achat */
+.achat {
+	height : 35px;
+	width : 97%;
+	text-align : left;
+	box-shadow : 0px 0px 4px 2px  rgba(3, 19, 97, 0.685) inset;
+	padding : 3px;
+	margin : 3px;
+	border-radius: 4%;
+}
+
+.achat * {
+	display : inline-block;
+	margin : 0px;
+	vertical-align : middle;
+	text-align : left;
+}
+.achat h4 {
+	vertical-align : top;
+	font-size : 10px;
+	width : 49%;
+	height : 80%;
+	padding : 0px 2px;
+	font-weight : normal;
+	overflow : hidden;
+	text-overflow :  ellipsis;
+	color : #4e4a4a;	
+	padding : 0px;
+	margin : 0px 2px;
+}
+.achat figure {
+ width : 32px;	
+ margin-right: 5px;
+}
+
+.achat figure img {
+	width : 100%;
+}
+
+.achat .prix, .achat .quantite {
+	font-size : 12px;
+}
+.achat .prix {
+	margin-right : 4px;	
+}
+.achat .quantite:after {
+	content :"x";
+	margin-right : 2px;	
+}
+
+#total {
+	background-color : rgb(200,0,0);
+	color :white;
+	border-radius : 4px;
+	margin : 4px 2px;
+	padding : 2px;
+	font-family :serif,'Courier New', Courier, monospace
+}
+

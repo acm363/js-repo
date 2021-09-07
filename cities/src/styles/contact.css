@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "Lato-Bold";
+  src: url("../assets/fonts/Lato-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Lato-Light";
+  src: url("../assets/fonts/Lato-Light.ttf");
+}
+
+@font-face {
+  font-family: "Lato-Regular";
+  src: url("../assets/fonts/Lato-Regular.ttf");
+}
+
+.contact {
+  margin: 30px;
+  padding: 10px;
+  font-family: "Lato-Regular", serif;
+  font-size: larger;
+}
+.contact h4 {
+  text-decoration: underline;
+}
+
+.contact-info {
+  margin: 5px;
+  padding: 10px;
+}
+.contact-info span {
+  margin-left: 12px;
+}
+.contact-info:first-of-type {
+  width: 200px;
+}
+.contact-info:nth-of-type(2) {
+  width: 300px;
+}
+.contact-info:nth-of-type(3) {
+  width: 500px;
+}
+.contact-info:hover {
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px rgba(8, 8, 0, 0.329);
+  transform: scale(1.02);
+  transition: transform 0.2s ease-out, box-shadow 0.2s ease,
+    border-radius 0.2s ease-in;
+}
+
+.section-form {
+  margin: 10px auto 10px auto;
+  padding: 20px;
+  box-sizing: content-box;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.329),
+    -2px -2px 4px rgba(0, 0, 0, 0.329);
+  width: 80%;
+  border-radius: 20px;
+  font-family: "Lato-Regular", serif;
+}
+
+.section-form > div {
+  font-family: "Lato-Light", serif;
+  font-size: 20px;
+}
+.section-form button:hover {
+    opacity: 0.9;
+}
+#formBasicName {
+  width: 300px;
+}
+
+.post-content {
+  margin: 10px auto 10px auto;
+  padding: 10px;
+
+  width: 80%;
+  box-sizing: content-box;
+}
+.post-content .post {
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.425),-2px -2px 2px rgba(0, 0, 0, 0.404);
+  margin-top: 10px;
+}
+.post .poster-name {
+  border-radius: 5px ;
+  padding: 4px;
+  margin-top: 1px;
+  margin-left: 5px;
+  font-family: "Lato-Light", serif;
+  background-color:#2125291a;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.404);
+}
+.post .poster-comment {
+  border-radius: 5px;
+  padding : 5px;
+  font-family: "Lato-Regular", Arial, Helvetica, sans-serif;
+ /* box-shadow: -1px -1px 5px rgba(0, 0, 0, 0.404);*/
+}
+.post .poster-time {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: smaller;
+    font-family: "Lato-Light";
+}
+

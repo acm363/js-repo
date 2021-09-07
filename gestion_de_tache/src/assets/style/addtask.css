@@ -1,0 +1,18 @@
+div.addTask input[type="number"] {
+  text-align : right;
+  width : 50px;
+  margin : 1px;
+}
+div.addTask input[type="text"] {
+  width : 200px;
+  margin : 1px;
+}
+
+div.addTask button{
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px 5px rgba(228, 206, 15, 0.041);
+}
+div.addTask button:hover{
+  scale : 1.05;
+  background-color: rgba(64, 55, 197, 0.781);
+}

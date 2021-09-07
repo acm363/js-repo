@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["_cZwhS",(s,e)=>{"use strict";var a,t=s=>{s.stopPropagation()},c=({events:s,className:e,children:c})=>a.createElement("div",Object.assign({className:e},s.reduce(((s,e)=>Object.assign({},s,{[e]:t})),{})),c);return[()=>{c.defaultProps={className:void 0},s("default",c),s("stopPropagation",t)},[s=>a=s]]},["cDcdfi"]]);

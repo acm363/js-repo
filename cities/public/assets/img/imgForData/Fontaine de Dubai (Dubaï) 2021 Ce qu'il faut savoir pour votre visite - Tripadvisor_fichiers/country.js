@@ -1,0 +1,1 @@
+(function () { /*France*/	var country = {'code':'fr','id':5,'defaultLangauge':'fr'};	if (!window.evidon) window.evidon = {};	if (window.evidon.notice) window.evidon.notice.setLocation(country);	else window.evidon.location = country;})(); 

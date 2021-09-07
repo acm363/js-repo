@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "Lato-Bold";
+    src :url('../../assets/fonts/Lato-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Lato-Light";
+    src :url('../../assets/fonts/Lato-Light.ttf');
+}
+
+@font-face {
+    font-family: "Lato-Regular";
+    src :url('../../assets/fonts/Lato-Regular.ttf');
+}
+
+.div-city {
+  display: inline-block;
+  width: 400px;
+  padding: 2px;
+  margin: 10px 15px 10px 15px;
+}
+
+.div-city img {
+  width: 380px;
+  height: 300px;
+  border-radius:10px ;
+}
+
+.div-city h2 {
+    font-size: 25px;
+    font-family: "Lato-Light";
+}
+
+.div-city img:hover {
+    transform: scale(1.05);
+    opacity: 0.6;
+    cursor: pointer;
+    transition: transform 0.5s ease, opacity 0.6s ease-in-out;
+}
+
+
+@media screen and (max-width: 980px) and (min-width: 760px) {
+    .div-city {
+        width: 300px;
+        height: 300px;
+      }
+      .div-city img {
+        width: 280px;
+        height: 250px;
+        border-radius:10px ;
+      }
+}
+
+@media screen and (max-width: 760px) and (min-width: 650x){
+    .div-city {
+        width: 400px;
+        height: 280px;
+      }
+      .div-city img {
+        width: 380px;
+        height: 250px;
+        border-radius:10px ;
+      }
+}
+
+
+@media screen and (max-width: 650px) {
+    .div-city {
+        width: 400px;
+        height: 280px;
+      }
+      .div-city img {
+        width: 380px;
+        height: 250px;
+        border-radius:10px ;
+      }
+}
+
+@media screen and (max-width: 400px) {
+    .div-city {
+        width: 300px;
+        height: 280px;
+      }
+      .div-city img {
+        width: 280px;
+        height: 250px;
+        border-radius:10px ;
+      }
+}

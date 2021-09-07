@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["E8NZou",(e,t)=>{"use strict";var r,s,i,u,c=()=>[...i],p=()=>[...u],d=({path:e})=>((e=>{r.useEffect((()=>{s(e)}),[e])})(e),null);return[()=>{i=new Set,u=new Set,e({PreloadedScript:d,usePublishedEagerScripts:c,usePublishedPreloadedScripts:p})},[e=>r=e,e=>s=e.importScript]]},["cDcdfi","pLbCP4"]]);

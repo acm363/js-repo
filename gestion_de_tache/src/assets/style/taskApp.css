@@ -1,0 +1,11 @@
+div.taskApp {
+   position : relative;
+   min-height: 200px;
+   width : 380px;
+   text-align : center;
+   border : 2px solid #666;
+   padding : 20px;
+   border-radius: 5px;
+   background-color : dodgerblue;
+   font-weight: bold;
+ }

@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "Lato-Bold";
+  src: url("../../assets/fonts/Lato-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Lato-Light";
+  src: url("../../assets/fonts/Lato-Light.ttf");
+}
+
+@font-face {
+  font-family: "Lato-Regular";
+  src: url("../../assets/fonts/Lato-Regular.ttf");
+}
+
+.city h2 {
+  font-family: "Lato-Regular";
+  margin: 40px auto 40px auto;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.171);
+}
+
+section .container-fluid {
+  font-family: "Lato-Light";
+  margin: 10px;
+  padding: 5px;
+  font-size: 18px;
+  font-style: italic;
+}
+.div-img {
+  display: inline-block;
+  width: 600px;
+  padding: 2px;
+  margin: 10px 15px 10px 15px;
+}
+
+.div-img img {
+  width: 500px;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.div-img img:hover {
+  transform: scale(1.05);
+  opacity: 0.6;
+  cursor: pointer;
+  box-shadow: 4px 4px 4px 4px  rgba(0, 0, 0, 0.212);
+  transition: transform 0.5s ease, opacity 0.6s ease-in-out;
+}
+
+.rate button{
+  margin: 15px;
+  width: 250px;
+}
+.rate{
+  text-align: center;
+  margin : 10px;
+}
+
+.rate button:hover{
+  transform: scale(1.05);
+  transition: transform 0.4s ease-out;
+  box-shadow: 4px 4px 4px 4px  rgba(0, 0, 0, 0.212);
+}
+
+.star-container{
+  margin: 10px;
+}
+.star-co {
+  margin: 5px;
+  padding: 1px;
+}
+
+.star-co:hover{
+  transform : scale(1.15);
+  transition: transform 0.2s ease-in;
+}
+/*
+.on{
+    background-color: rgb(248, 244, 11);
+}
+ .off{
+  background-color: rgba(255, 255, 255, 0.979);
+}*/
+@media screen and (max-width: 980px) and (min-width: 760px) {
+  .div-img {
+    width: 300px;
+    height: 300px;
+  }
+  .div-img img {
+    width: 280px;
+    height: 250px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 760px) and (min-width: 650x) {
+  .div-img {
+    width: 400px;
+    height: 280px;
+  }
+  .div-img img {
+    width: 380px;
+    height: 250px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .div-img {
+    width: 400px;
+    height: 280px;
+  }
+  .div-img img {
+    width: 380px;
+    height: 250px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .div-img {
+    width: 300px;
+    height: 280px;
+  }
+  .div-img img {
+    width: 280px;
+    height: 250px;
+    border-radius: 10px;
+  }
+}

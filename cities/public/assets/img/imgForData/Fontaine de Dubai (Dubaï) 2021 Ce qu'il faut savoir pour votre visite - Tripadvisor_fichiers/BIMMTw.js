@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["BIMMTw",(r,t)=>{"use strict";var e=r=>{if(null==r)return{};var t={};return Object.entries(r).forEach((([r,e])=>{if(null!=e){var a=`data-${r}`.replace(/[A-Z]/g,(r=>`-${r.toLowerCase()}`));t[a]=String(e)}})),t};return[()=>{r("default",e)},[]]},[]]);

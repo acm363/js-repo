@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["Oc3sTL",(t,e)=>{"use strict";var r=55978451,i="gpt-ad-320x50-adhesion";function s(){var t=document.querySelector(`#${i}`);if(!t)return!1;var e=t.getAttribute("data-advertiser-id");return!(!e||e===r.toString())}return t("doesAdExistOnPage",s),[()=>{t({ADHESION_COLLAPSE_ADVERTISER_ID:r,doesAdExistOnPage:s,mobileAdhesionId:i})},[]]},[]]);

@@ -1,0 +1,1 @@
+(this.$WP=this.$WP||[]).push(["b2gPCP",(e,t)=>{"use strict";var l,r,u,s,a,n=({model:e})=>{var{text:t,noResultsTitle:u=null}=e;return l.createElement(r,{title:l.createElement(s,{nullable:!0,model:u})},l.createElement(s,{model:t}))};return[()=>{a=u(n),e("default",a)},[e=>l=e,e=>r=e.CustomErrorState,e=>u=e.fuse,e=>s=e.default]]},["cDcdfi","glH5KG","PEYes_","XNYdwH"]]);

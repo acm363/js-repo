@@ -1,4 +1,8 @@
-Pour installer les fichiers nécessaires qui permettront de lancer l'application :
+ Ce projet porte sur une application mono-page permettant à l'utilisateur de créer des tâches, de donner une certaine priorité à ces tâches.
+ Une fois une tâche finie il peut l'ajouter à la liste des tâches finies.
+ 
+ 
+ Pour installer les fichiers nécessaires qui permettront de lancer l'application :
 
 - récupérez le dépôt qui contient les fichiers sources en clonant le dépôt git via ssh(par exemple)  via le lien : git@gitlab-etu.fil.univ-lille1.fr:atchedji/atchedji-colle-douchet-guennineche-js.git
 
@@ -18,4 +22,3 @@ Pour installer les fichiers nécessaires qui permettront de lancer l'application
 - dans le dossier *dist* créé, ouvrez le fichier *index.html* dans un navigateur pour lancer l'application.
 
 
-**NB : Le projet a été totalement fait.**

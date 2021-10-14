@@ -1,3 +1,4 @@
+## AUTHOR : CHURCHILL ATCHEDJI
 ## Project 
   This project is a small resumption of an e-commerce site
 ## Getting Started with Create React App

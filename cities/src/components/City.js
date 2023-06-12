@@ -11,7 +11,7 @@ const City = (props) => {
     setVisible(!visible);
   };
 
-  /*ici on gère tout ce qui le mécanisme pour noter les villes */
+  /*ici on gère tout ce qui est lié au mécanisme de note des villes */
   const ratingSection = visible && (
     <div className="container">
       Notez cette ville !
